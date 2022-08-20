@@ -1,4 +1,4 @@
-const finalIntroText = ["K", "a", "i ", "M", "c", "E", "n", "r", "o", "e"];
+const finalIntroText = ["", "K", "a", "i", " ", "M", "c", "E", "n", "r", "o", "e"];
 let introText = "";
 
 function sleep(ms) {
@@ -12,7 +12,7 @@ async function start() {
     for (let i = 0; i < finalIntroText.length; i++) {
         
         introText += finalIntroText[i];
-        document.getElementById("intro-text-header").innerHTML = introText;
+        document.getElementById("intro-text-header").innerHTML = introText + "_";
         await sleep(100);
         
     }
