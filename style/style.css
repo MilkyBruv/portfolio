@@ -39,6 +39,7 @@ body * {
 body header .navbar {
   width: 100vw;
   height: 55px;
+  position: fixed;
   background-color: #000000;
 }
 body header .navbar .navbar-right .navbar-item-r-1:hover {
@@ -52,6 +53,9 @@ body header .navbar .navbar-right .navbar-item-r-3:hover {
 }
 body header .navbar .navbar-right .navbar-item-r-4:hover {
   background-color: #5454e1;
+}
+body header .navbar .navbar-right .navbar-item-r-5:hover {
+  background-color: #bc5d51;
 }
 body header .navbar .navbar-right .navbar-item-r {
   float: right;
@@ -93,6 +97,7 @@ body header .navbar .navbar-left .navbar-item-l:hover {
 }
 body header .navbar .navbar-left .navbar-item-l img {
   height: 40px;
+  color: #ffffff;
 }
 body header .intro-text {
   height: 800px;

@@ -54,6 +54,8 @@ body {
             width: 100vw;
             height: 55px;
 
+            position: fixed;
+
             background-color: #000000;
 
             .navbar-right {
@@ -95,6 +97,16 @@ body {
                     &:hover {
 
                         background-color: #5454e1;
+
+                    }
+
+                }
+
+                .navbar-item-r-5 {
+
+                    &:hover {
+
+                        background-color: #bc5d51;
 
                     }
 
@@ -183,6 +195,7 @@ body {
                     img {
                         
                         height: 40px;
+                        color: #ffffff;
 
                     }
 
