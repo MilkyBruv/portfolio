@@ -107,4 +107,24 @@ body header .intro-text {
 }
 body header .intro-text h1 {
   font-size: 80px;
+}
+body main .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+body main .container .container-content {
+  margin-inline: 50px;
+}
+body main .container .container-content .container-content-h1 {
+  margin-bottom: 50px;
+}
+body main .container .container-content .container-content-h2 {
+  text-decoration: underline;
+  color: black;
+}
+body main .container .container-content .container-content-p {
+  font-size: 20px;
+}
+body main .about-me {
+  background-color: #5454e1;
 }/*# sourceMappingURL=style.css.map */

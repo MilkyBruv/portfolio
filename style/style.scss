@@ -1,7 +1,5 @@
 :root {
 
-    // Colours
-
     --colour1: #000000;
     --colour2: #d84f69;
     --colour3: #5454e1;
@@ -224,9 +222,41 @@ body {
 
     main {
 
-        .main-container-1 {
+        .container {
 
-            // make smth
+            padding-top: 120px;
+            padding-bottom: 120px;
+
+            .container-content {
+
+                margin-inline: 50px;
+
+                .container-content-h1 {
+
+                    margin-bottom: 50px;
+
+                }
+
+                .container-content-h2 {
+
+                    text-decoration: underline;
+                    color: black;
+
+                }
+
+                .container-content-p {
+
+                    font-size: 20px;
+
+                }
+
+            }
+
+        }
+
+        .about-me {
+
+            background-color: #5454e1;
 
         }
 
