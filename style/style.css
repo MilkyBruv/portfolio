@@ -1,0 +1,107 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+}
+body header {
+  background-color: red;
+  height: 5%;
+}
+body main {
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: greenyellow;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body main .game {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body main .game .title {
+  background-color: cadetblue;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+}
+body main .game .info {
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90%;
+}
+body main .game .info .left {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-self: flex-start;
+  background-color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+}
+body main .game .info .left .left-container {
+  background-color: aliceblue;
+  width: 90%;
+  height: 90%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+body main .game .info .left .left-container .text {
+  height: 90%;
+  border-radius: 30px 30px 0px 0px;
+  background-color: coral;
+}
+body main .game .info .left .left-container .github-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+}
+body main .game .info .left .left-container .github-btn a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  text-align: center;
+  background-color: aqua;
+  border-radius: 0px 0px 30px 30px;
+  text-decoration: none;
+}
+body main .game .info .left .left-container .github-btn a svg {
+  height: 100%;
+}
+body main .game .info .right {
+  display: flex;
+  width: 50%;
+  background-color: brown;
+  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+body main .game .info .right .right-container {
+  background-color: red;
+  width: 100%;
+}
+body main .game .info .right .right-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body footer {
+  height: 5%;
+  background-color: blueviolet;
+}/*# sourceMappingURL=style.css.map */
