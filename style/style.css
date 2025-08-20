@@ -5,7 +5,7 @@ body {
   width: 100vw;
   height: -moz-fit-content;
   height: fit-content;
-  font-family: sans-serif monospace;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 body .header {
   background-color: red;
@@ -30,7 +30,7 @@ body .header a:hover {
   background-color: brown;
 }
 body main {
-  background-color: aquamarine;
+  background-color: aliceblue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,21 +46,22 @@ body main .about {
   background-color: brown;
 }
 body main .year {
-  background-color: beige;
+  background-color: aliceblue;
   width: 90%;
 }
 body main .year .year-title {
-  color: blue;
+  color: black;
   text-align: center;
 }
 body main .year .game {
-  background-color: coral;
+  background-color: aliceblue;
   display: flex;
   flex-direction: column;
 }
 body main .year .game .game-title {
-  color: blueviolet;
-  background-color: cornflowerblue;
+  color: black;
+  background-color: white;
+  text-align: center;
 }
 body main .year .game .game-content {
   display: flex;
@@ -73,26 +74,29 @@ body main .year .game .game-content .left {
   justify-content: center;
   align-items: center;
   width: 50%;
-  background-color: aqua;
+  background-color: white;
 }
 body main .year .game .game-content .left .left-content {
   width: 90%;
   height: 100%;
-  background-color: darkcyan;
+  background-color: white;
 }
 body main .year .game .game-content .left .left-content img {
   height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 body main .year .game .game-content .right {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
-  background-color: azure;
+  background-color: white;
 }
 body main .year .game .game-content .right .right-content {
   width: 90%;
-  background-color: goldenrod;
+  background-color: white;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -100,9 +104,12 @@ body main .year .game .game-content .right .right-content {
 body main .year .game .game-content .right .right-content .game-info {
   height: 95%;
 }
+body main .year .game .game-content .right .right-content .game-info p {
+  font-size: 30px;
+}
 body main .year .game .game-content .right .right-content .github-button {
   height: 5%;
-  background-color: aliceblue;
+  align-self: flex-end;
 }
 body main .year .game .game-content .right .right-content .github-button a {
   display: flex;

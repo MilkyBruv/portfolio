@@ -4,7 +4,7 @@ body {
     overflow-x: hidden;
     width: 100vw;
     height: fit-content;
-    font-family: sans-serif monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     .header {
         background-color: red;
@@ -33,7 +33,7 @@ body {
     }
 
     main {
-        background-color: aquamarine;
+        background-color: aliceblue;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -49,22 +49,23 @@ body {
         }
 
         .year {
-            background-color: beige;
+            background-color: aliceblue;
             width: 90%;
 
             .year-title {
-                color: blue;
+                color: black;
                 text-align: center;
             }
 
             .game {
-                background-color: coral;
+                background-color: aliceblue;
                 display: flex;
                 flex-direction: column;
 
                 .game-title {
-                    color: blueviolet;
-                    background-color: cornflowerblue;
+                    color: black;
+                    background-color: white;
+                    text-align: center;
                 }
 
                 .game-content {
@@ -77,15 +78,17 @@ body {
                         justify-content: center;
                         align-items: center;
                         width: 50%;
-                        background-color: aqua;
+                        background-color: white;
 
                         .left-content {
                             width: 90%;
                             height: 100%;
-                            background-color: darkcyan;
+                            background-color: white;
 
                             img {
                                 height: 100%;
+                                width: 100%;
+                                object-fit: cover;
                             }
                         }
                     }
@@ -95,22 +98,26 @@ body {
                         justify-content: center;
                         align-items: center;
                         width: 50%;
-                        background-color: azure;
+                        background-color: white;
 
                         .right-content {
                             width: 90%;
-                            background-color: goldenrod;
+                            background-color: white;
                             display: flex;
                             flex-direction: column;
                             height: 100%;
 
                             .game-info {
                                 height: 95%;
+                                
+                                p {
+                                    font-size: 30px;
+                                }
                             }
 
                             .github-button {
                                 height: 5%;
-                                background-color: aliceblue;
+                                align-self: flex-end;
 
                                 a {
                                     display: flex;
